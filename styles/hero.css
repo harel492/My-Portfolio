@@ -70,6 +70,9 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 600px){
     .hero-text h1{
-        font-size: 2rem;
+        font-size: 5.5rem;
+    }
+    .hero-text p {
+        font-size: 3rem;
     }
 }
