@@ -15,6 +15,33 @@ margin-bottom: 15px;
 margin-bottom: 20px;
 }
 
+.contact form{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.contact form label{
+    display: flex;
+    text-align: right;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.contact form input, .contact form textarea{
+    width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-bottom: 5px solid #005bb5;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+font-size: 1rem;
+}
+
 .contact .btn{
 background-color: #fff;
 text-decoration: none;
